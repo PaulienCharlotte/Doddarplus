@@ -1,0 +1,5 @@
+{
+  "name": "Doddar",
+  "description": "Een analytische tool die gedrag binnen afhankelijkheidsrelaties beoordeelt op basis van een casus tekst, met behulp van de Gemini API. (v6.5)",
+  "requestFramePermissions": []
+}
