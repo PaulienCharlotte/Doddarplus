@@ -288,7 +288,7 @@ const InputSection: React.FC<InputSectionProps> = ({
 
                 <button
                     type="submit"
-                    disabled={isLoading || isRewriting || !text || !termsAccepted || !ageConfirmed}
+                    disabled={isLoading || isRewriting}
                     className="w-full py-4 bg-[#58B895] hover:bg-[#4AA984] text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform active:scale-[0.99] disabled:bg-gray-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:shadow-none disabled:transform-none flex items-center justify-center gap-3 tracking-wide"
                 >
                     {isLoading ? 'Bezig met analyseren...' : 'Start Analyse'}
